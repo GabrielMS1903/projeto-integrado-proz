@@ -1,12 +1,11 @@
 Hello World! Projeto integrado referente a Proz Educação, que está nos proporcionando 
 um grande aprendizado na programação. Esse projeto trará passos de layouts simples, trabalho em equipe, 
 html e css, javaScript e banco de dados. E ele terá como tema o bem-estar, focaremos tanto na 
-saúde física como na mental, trazendo desde informaçôes para os nossos usuários até um mural de apoio para ajuda-los com esse tema.
+saúde física como na mental, trazendo desde informaçôes para os nossos usuários para ajuda-los com esse tema.
 Até mais!
 
 Integrantes:
-Gabriel Martins
-Ailton Patricio 
-José Abel 
-Cesar Augusto
-Carlos Durães
+Gabriel Martins - conteúdo-cadastro
+Ailton Patricio - contato 
+José Abel - home-login
+Cesar Augusto - sobre nós
