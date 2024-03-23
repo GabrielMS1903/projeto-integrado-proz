@@ -1,0 +1,449 @@
+
+/*Conteúdo*/
+
+ 
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+ #title {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bolder;
+    text-decoration:underline #F7E06B;
+    animation-name: apresente;
+    animation-duration: 4s;
+}
+
+@keyframes apresente {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+#apresentation {
+    text-align: center;
+    
+}
+
+
+  
+
+#apresentation > p {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+    
+   
+}
+
+
+
+
+
+
+
+#container_start > h3 {
+    text-align:left;
+    margin-top: 25px;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#container_start > p {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+}
+
+
+/*Imagens*/
+
+#img-1 > img {
+    width: 350px;
+    display: flex;
+    margin: 0 auto;
+    animation-name: imagem;
+}
+
+#img-1 > img:hover {
+    
+    animation-name: imagem;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes imagem  {
+    from {
+        width: 350px;
+        display: flex;
+        margin: 0 auto;
+   
+      
+   
+    }
+  
+    to {
+        width: 400px;
+        display: flex;
+        margin: 0 auto;
+   
+
+    }
+  }
+
+#img-2 {
+    width: 350px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#img-3 {
+    width: 250px;
+    display: flex;
+    margin-left: 400px;
+  
+}
+
+#img-4 {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#img-5 {
+    width: 350px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Frases*/
+
+#f-1 {
+    color: #325343;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    animation-name: frases;
+    animation-duration: 5s;
+    animation-delay: 1s;
+   
+}
+
+@keyframes frases {
+    from {
+      
+      color: #F7E06B;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+    }
+  
+    to {
+     font-weight: lighter;
+      color: #325343;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+
+    }
+  }
+
+
+
+#f-2 {
+    color: #325343;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    animation-name: frases;
+    animation-duration: 5s;
+    
+}
+
+
+
+
+/*sobre as dicas de saúde*/
+
+#container_tips > h4 {
+    text-align:left;
+    margin-top: 25px;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: large;
+}
+
+
+
+#container_tips > ol > .li_tips {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+    font-weight: bolder;
+}
+
+
+#container_tips > ol > .p_tips {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+    margin-top: 8px;
+}
+
+/*sintomas*/
+
+#container_symtoms > h6 {
+    text-align:center;
+    margin-top: 25px;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: large;
+}
+
+#container_symtoms {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container_symtoms > ul > li {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+    animation-name: sintomas;
+}
+
+#container_symtoms > ul > li:hover {
+    animation-duration: 0.5s;
+    animation-name: sintomas;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes sintomas {
+    from {
+      
+        text-align: justify;
+        font-size: 17px;
+        
+        line-height: 1.4rem;
+   
+    }
+  
+    to {
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.4rem;
+    }
+  }
+
+.dual {
+    display: inline-block;
+    flex-direction: column;
+    vertical-align: top;
+    margin-right: 20px;
+    
+}
+
+
+
+/*ATENÇÃO - direitos*/
+
+#attention {
+    background-color: #F7E06B;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 30px;
+    
+}
+
+#attention:hover {
+    
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: #325343;
+}
+
+
+#attention > h5 {
+    color: black;
+    text-decoration: underline;
+    text-align:center;
+    margin-top: 25px;
+    font-weight: bolder;
+    
+    font-size: large;
+}
+
+
+
+#attention > p {
+    text-align: justify;
+    font-size: 17px;
+    
+    margin-top: 22px;
+    line-height: 1.4rem;
+    margin-top: 8px;
+}
+
+#attention > p > a {
+    color: white;
+    font-weight: bold;
+}
+
+#attention > p > a:hover {
+    color:#F7E06B;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#after_p {
+    color: black;
+    font-weight: bolder;
+
+    text-align: left;
+    font-size: 17px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+    margin-top: 30px;
+    
+}
+
+
+
+/*Questões*/
+
+
+
+
+#container_questions {
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bolder;
+    margin-left: 300px;   
+    margin-right: 300px;  
+    font-size: 50px;
+}
+
+#container_questions .li-0 {
+    color: #325343;
+    text-align: left;
+    margin-top: 25px;
+    font-weight: bolder;
+    margin-left: 300px;  
+    margin-right: 300px; 
+    font-size: large;
+}
+
+#container_questions .p-0 {
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 8px;
+    margin-left: 300px; 
+    margin-right: 300px; 
+    line-height: 1.4rem;
+}
+
+#container_questions  .p-a {
+    text-decoration: none;
+    color: #325343;
+}
+
+
+/*rodapé*/
+
+footer {
+    background-color:#F7E06B;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+
+
+
+#p-roda-a {
+    color: #325343;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 7px;
+    justify-content: center;
+    
+}
+
+#p-roda-b {
+    color: #325343;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: #333;  
+    margin-right: 100px; 
+    margin-left: 200px;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+   margin-top: 7px;
+}
+
+
