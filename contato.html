@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <img class="logo" src="img/logo.png" alt="Logo">
+
+        <!-- Menu Navegação -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Formulario Contato-->
+    <div id="divCenter">
+        <form name="meu_form">
+
+            <h1>Entre em contato</h1>
+            <table cellspacing="10">
+
+                <tr>
+                    <td>
+                        <label for="nome">*Nome:</label>
+                        <input type="text" id="nomeid" placeholder="Seu Nome" required="obrigatorio" name="nome" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fone"> *Fone:</label>
+                        <input type="tel" id="foneid" placeholder="(_)xx-xx-xx-xx" required="obrigatorio" name="fone" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">*Email:</label>
+                        <input type="email" id="emailid" placeholder="@mail.com" required="obrigatorio" name="email" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <textarea rows="6" placeholder="Deixe sua opnião"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                    <td>
+                </tr>
+
+        </form>
+    </div>
+
+    <footer>
+        <!-- Conteúdo do rodapé, se necessário -->
+    </footer>
+</body>
+
+</html>

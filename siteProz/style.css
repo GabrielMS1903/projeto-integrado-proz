@@ -1,0 +1,86 @@
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-left: 75px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9dbc1;
+}
+
+header {
+    background-color: #325343;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between; /* Alinha os itens ao redor do espaço disponível */
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F7E06B;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilos para a seção do banner */
+section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner {
+    width: 100%; /* Ocupa toda a largura do contêiner pai */
+    max-width: 1200px; /* Largura máxima do banner (ajuste conforme necessário) */
+    height: auto; /* Altura ajustada automaticamente proporcionalmente à largura */
+    margin: 0 auto; /* Centraliza o banner no contêiner pai */
+}
+
+/* Estilos para a seção dos cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* Adicione mais estilos conforme necessário */
+
+.rodape {
+    background-color: #325343;
+
+}
+
+.rodape h4 {
+    color: red;
+}
+
+
+
