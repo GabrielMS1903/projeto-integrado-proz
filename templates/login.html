@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/public/CSS/global.css">
+    <link rel="stylesheet" type="text/css" href="/public/CSS/styleSuaSaude.css">
+    <link rel="stylesheet" type="text/css" href="/public/CSS/logCadastre.css">
+    <link rel="stylesheet" type="text/css" href="/public/CSS/styleHome.css">
+    
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/img/logo.png" alt="Logo">  <!-- Logo -->
+
+        <!-- Menu Navegação -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="suaSaude.html">Sua saúde</a></li>
+                
+                <li><a href="contato.html">Contato</a></li> 
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li class="loginButton"><a href="#">Login</a></li> <!--Botão de leva pro form de login-->
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="login-container">
+            <h1 >Entre em sua conta!</h1>
+            <form action="#" method="post">
+                <label class="inputF" for="email">Email:</label>
+                <input class="inputF off" type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+        
+                <label class="inputF" for="password">Senha:</label>
+                <input class="inputF off" type="password" id="password" name="password" placeholder="Uma senha forte" required>
+
+                <label class="inputF check " <div class="card" for="saveUser">Salvar usuário</label>
+                <input type="checkbox" id="boxD" class="check" id="saveUser" name="saveUser">
+                
+                <button id="thebtn" type="submit">Enviar</button>
+                <button id="theBtnReset" type="reset">Limpar</button>
+                
+                <div id="cadastre">
+                    <p id="cadRight">Não tem Cadastro ? <a target="_blank" href="/templates/cadastro.html">Cadastre-se aqui.</a></p>
+                </div>
+              
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <p id="p-roda-a">Sua saúde é o que importa para nós</p>
+        <p id="p-roda-b">Contato dos desenvolvedores:</p>
+        <a target="_blank" href="https://github.com/Ailton-Nascimento">Github Ailton</a>
+        <a target="_blank" href="https://github.com/GabrielMS1903">Github Gabriel</a>
+        
+        <a target="_blank" href="https://github.com/Abel-D-Silva">GitHub Abel</a>
+        <a target="_blank" href="https://github.com/rasecprogram">Github Augusto</a>
+    </footer>
+</body>
+
+</html>
