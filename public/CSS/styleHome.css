@@ -106,13 +106,19 @@ section {
     text-align: center;
     color: #325343;
     font-weight: bolder;
+<<<<<<< HEAD
     font-size: 30px;
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
     text-decoration:underline #F7E06B;
   
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 #about {
     text-align: center;
 }

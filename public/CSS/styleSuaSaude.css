@@ -14,7 +14,10 @@
     text-decoration:underline #F7E06B;
     animation-name: apresente;
     animation-duration: 4s;
+<<<<<<< HEAD
    
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 }
 
 @keyframes apresente {
@@ -88,6 +91,7 @@
     animation-fill-mode: forwards;
 }
 
+<<<<<<< HEAD
 #img-2:hover {
     
     animation-name: imagem;
@@ -109,6 +113,8 @@
     animation-fill-mode: forwards;
 }
 
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 @keyframes imagem  {
     from {
         width: 350px;
@@ -123,7 +129,11 @@
         width: 400px;
         display: flex;
         margin: 0 auto;
+<<<<<<< HEAD
         
+=======
+   
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 
     }
   }
@@ -132,14 +142,20 @@
     width: 350px;
     display: flex;
     margin: 0 auto;
+<<<<<<< HEAD
     animation-name: imagem;
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 }
 
 #img-3 {
     width: 250px;
     display: flex;
     margin-left: 400px;
+<<<<<<< HEAD
     animation-name: imagem;
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
   
 }
 
@@ -149,14 +165,20 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
+<<<<<<< HEAD
    
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 }
 
 #img-5 {
     width: 350px;
     display: flex;
     margin: 0 auto;
+<<<<<<< HEAD
     animation-name: imagem;
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 }
 
 /*Frases*/
@@ -229,6 +251,20 @@
 
 
 
+<<<<<<< HEAD
+=======
+#container_tips > ol > .li_tips {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 22px;
+    line-height: 1.4rem;
+    font-weight: bolder;
+}
+
+
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 #container_tips > ol > .p_tips {
     text-align: justify;
     font-size: 17px;
@@ -237,6 +273,7 @@
     margin-top: 22px;
     line-height: 1.4rem;
     margin-top: 8px;
+<<<<<<< HEAD
     
 }
 
@@ -282,6 +319,10 @@
 
 
 
+=======
+}
+
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 /*sintomas*/
 
 #container_symtoms > h6 {
@@ -505,6 +546,7 @@ footer a {
 }
 
 
+<<<<<<< HEAD
 
 /*responsividade*/
 @media (max-width: 400px) {
@@ -721,3 +763,5 @@ footer a {
     
 
 }
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930

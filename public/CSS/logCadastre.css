@@ -42,8 +42,11 @@
     padding-right: 50px;
     padding-bottom: 10px;
     border-radius: 5%;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 }
 
 .start {
@@ -140,8 +143,11 @@
     padding-right: 50px;
     padding-bottom: 100px;
     border-radius: 5%;
+<<<<<<< HEAD
     animation-name: campo;
     animation-duration: 1s;
+=======
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 }
 
 .inputF {
@@ -260,6 +266,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 
@@ -308,3 +315,6 @@ h1 {
 
 
 
+=======
+}
+>>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
