@@ -7,74 +7,70 @@
     
     <link rel="stylesheet" type="text/css" href="/public/CSS/logCadastre.css">
     <link rel="stylesheet" type="text/css" href="/public/CSS/global.css">
+    <link rel="stylesheet" href="/public/CSS/styleSuaSaude.css">
     
     <title>Contato</title>
 </head>
 
 <body>
     <header>
-        <!-- Logo -->
-        <img class="logo" src="img/logo.png" alt="Logo">
+    <img class="logo" src="/img/logo.png" alt="Logo">  <!-- Logo -->
 
-        <!-- Menu Navegação -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobrenos.html">Sobre Nós</a></li>
-                <li><a href="content.html">Lorem</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="contato.html"></a></li> 
-                <li class="loginButton"><a href="#">Login</a></li> <!--Botão de leva pro form de login-->
-            </ul>
-        </nav>
-    </header>
+    <!-- Menu Navegação -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Sobre Nós</a></li>
+            <li><a href="suaSaude.html">Sua saúde</a></li>
+            
+            <li><a href="contato.html">Contato</a></li> 
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li class="loginButton"><a href="/templates/login.html"">Login</a></li> <!--Botão de leva pro form de login-->
+        </ul>
+    </nav>
+</header>
 
     <!--Formulario Contato-->
     <div id="divCenter">
         <form name="meu_form">
 
             <h1>Entre em contato</h1>
-            <table cellspacing="10">
+           
 
-                <tr>
-                    <td>
-                        <label for="nome">*Nome:</label>
-                        <input type="text" id="nomeid" placeholder="Seu Nome" required="obrigatorio" name="nome" />
-                    </td>
-                </tr>
+                
+                        <label class="start lab align lab-2" for="nome">Nome:</label>
+                        <input class="start inpt align" type="text" id="nomeid" placeholder="Seu Nome" required name="nome" />
+                  
+              
+                  
+                        <label class="start lab align lab-2" for="fone"> Fone:</label>
+                        <input class="start inpt align" type="tel" id="foneid" placeholder="(_)xx-xx-xx-xx" required name="fone" />
+                 
+                
+                        <label class="start lab align lab-2" for="email">Email:</label>
+                        <input class="start inpt align" type="email" id="emailid" placeholder="@mail.com" required="obrigatorio" name="email" />
+                   
+                
+                        <textarea class="text align" rows="6" placeholder="Deixe sua opnião"></textarea>
+                  
+                
 
-                <tr>
-                    <td>
-                        <label for="fone"> *Fone:</label>
-                        <input type="tel" id="foneid" placeholder="(_)xx-xx-xx-xx" required="obrigatorio" name="fone" />
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <label for="email">*Email:</label>
-                        <input type="email" id="emailid" placeholder="@mail.com" required="obrigatorio" name="email" />
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <textarea rows="6" placeholder="Deixe sua opnião"></textarea>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-                    <td>
-                </tr>
+                
+                    
+                        <input  type="submit" class="enviar submit" onclick="Enviar();" value="Enviar" />
+                   
 
         </form>
     </div>
-
+    
     <footer>
-        <!-- Conteúdo do rodapé, se necessário -->
+        <p id="p-roda-a">Sua saúde é o que importa para nós</p>
+        <p id="p-roda-b">Contato dos desenvolvedores:</p>
+        <a target="_blank" href="https://github.com/Ailton-Nascimento">Github Ailton</a>
+        <a target="_blank" href="https://github.com/GabrielMS1903">Github Gabriel</a>
+        
+        <a target="_blank" href="https://github.com/Abel-D-Silva">GitHub Abel</a>
+        <a target="_blank" href="https://github.com/rasecprogram">Github Augusto</a>
     </footer>
-</body>
-
+<body>
 </html>
