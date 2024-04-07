@@ -7,55 +7,55 @@
     <link rel="stylesheet" type="text/css" href="/public/CSS/styleSuaSaude.css">
     <link rel="stylesheet" type="text/css" href="/public/CSS/logCadastre.css">
     <link rel="stylesheet" type="text/css" href="/public/CSS/styleHome.css">
+
+    
     
     <title>Home</title>
+    <script src="/assets/js/global.js" defer></script>
+    <script src="/assets/js/validacao.js" defer></script>
+    <script src="/assets/js/blackTheme.js"></script>
 </head>
 
 <body>
-    <header>
+    <header id="nav">
         <img class="logo" src="/img/logo.png" alt="Logo">  <!-- Logo -->
 
         <!-- Menu Navegação -->
-        <nav>
+        <nav >
             <ul>
-<<<<<<< HEAD
                 <li><a href="home.html">Home</a></li>
                 <li><a href="index.html">Sobre Nós</a></li>
-=======
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobrenos.html">Sobre Nós</a></li>
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
                 <li><a href="suaSaude.html">Sua saúde</a></li>
                 
                 <li><a href="contato.html">Contato</a></li> 
                 <li><a href="cadastro.html">Cadastro</a></li>
-<<<<<<< HEAD
-                <li class="loginButton"><a href="/templates/login.html">Login</a></li> <!--Botão de leva pro form de login-->
-=======
-                <li class="loginButton"><a href="#">Login</a></li> <!--Botão de leva pro form de login-->
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+                <li class="loginButton"><a href="/templates/login.html"">Login</a></li> <!--Botão de leva pro form de login-->
             </ul>
         </nav>
     </header>
+
+    <button id="btnN">Tema Escuro</button>
 
     <section>
         <div id="login-container">
             <h1 >Entre em sua conta!</h1>
             <form action="#" method="post">
-                <label class="inputF" for="email">Email:</label>
-<<<<<<< HEAD
-                <input class="inputF off" type="email" id="email" name="email" placeholder="Seu e-mail aqui." required>
-        
-                <label class="inputF" for="password">Senha:</label>
-                <input class="inputF off" type="password" id="password" name="password" placeholder="Sua senha aqui." required>
-=======
-                <input class="inputF off" type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
-        
-                <label class="inputF" for="password">Senha:</label>
-                <input class="inputF off" type="password" id="password" name="password" placeholder="Uma senha forte" required>
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+                <label id="emailF" class="inputF lab" for="email">Email:</label>
 
-                <label class="inputF check " <div class="card" for="saveUser">Salvar usuário</label>
+                <input class="inputF off" type="email" id="email" name="email" placeholder="Seu e-mail aqui." required>
+                <p id="email-helper" class="helper-text" class="visible"></p>
+
+                <label class="inputF lab" for="password">Senha:</label>
+                <input   type="password" class="inputF off" id="password" name="password" placeholder="Sua senha aqui." required>
+                <p id="senha-helper" class="helper-text" class="visible"></p>
+               
+               
+        
+               
+            
+
+
+                <label class="inputF check "  class="card" for="saveUser">Salvar usuário</label>
                 <input type="checkbox" id="boxD" class="check" id="saveUser" name="saveUser">
                 
                 <button id="thebtn" type="submit">Enviar</button>
@@ -67,6 +67,8 @@
               
             </form>
         </div>
+
+     
     </section>
 
 
@@ -74,15 +76,30 @@
 
 
 
-    <footer>
+      
+    <footer id="footerId">
         <p id="p-roda-a">Sua saúde é o que importa para nós</p>
         <p id="p-roda-b">Contato dos desenvolvedores:</p>
-        <a target="_blank" href="https://github.com/Ailton-Nascimento">Github Ailton</a>
-        <a target="_blank" href="https://github.com/GabrielMS1903">Github Gabriel</a>
         
-        <a target="_blank" href="https://github.com/Abel-D-Silva">GitHub Abel</a>
-        <a target="_blank" href="https://github.com/rasecprogram">Github Augusto</a>
+        <div id="alignGit">
+
+            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+           </div>
+        
+      
+       
+      
+        
     </footer>
-</body>
 
 </html>

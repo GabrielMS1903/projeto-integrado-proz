@@ -100,25 +100,80 @@ section {
     margin-top: 10px;
     font-weight: bold;
 }
+
+.card > p.cardWhite {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+}
 #h1-banner {
     margin-top: 15px;
     margin-bottom: 25px;
     text-align: center;
     color: #325343;
     font-weight: bolder;
-<<<<<<< HEAD
+    margin-right: 200px;
     font-size: 30px;
-=======
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+
     text-decoration:underline #F7E06B;
   
 }
 
-<<<<<<< HEAD
+.p-0.changeHome {
+    color: white;
+}
+
+#bodyH.changeBody {
+    background-color: black;
+}
+#h1-banner.ban {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #F7E06B;
+    font-weight: bolder;
+    margin-right: 200px;
+    font-size: 30px;
+
+    text-decoration:underline #F7E06B;
+  
+}
+
+@keyframes title {
+    from {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+        color: #325343;
+        font-weight: bolder;
+        transform: translateX(-200px);
+
+        font-size: 30px;
+    
+        text-decoration:underline #F7E06B;
+    }
+
+    to {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+        color:#325343;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transform: translateX(20px);
+        font-size: 50px;
+        width: 100%;;
+        text-decoration:underline #F7E06B;
+    }
+}
+
+.animate-title {
+    animation-name: title;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 
-=======
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
 #about {
     text-align: center;
 }
@@ -128,6 +183,7 @@ section {
     color:#325343;
     font-weight: bolder;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .p-0 {
@@ -149,12 +205,59 @@ section {
     margin-right: 400px;
 }
 
-.after {
+.btn-1 {
     display: inline-block;
     align-items: center;
     border-radius: 70%;
     background-color: #325343;
 
+}
+
+.btn-2 {
+    display: inline-block;
+    align-items: center;
+    border-radius: 70%;
+    background-color:brown;
+    justify-content: center;
+
+}
+
+.btn-3 {
+    display: inline-block;
+    align-items: center;
+    border-radius: 70%;
+    background-color:#F7E06B;
+
+}
+
+#img-picker > ul > li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+   
+}
+
+#img-picker > ul {
+    display: flex;
+    justify-content: center;
+}
+
+#img-picker .color {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 2px 1px 1px;
+    border: 4px solid white;
+    pointer-events: none; /*dont events, just in the all li*/
+} 
+
+#main_content > #product-image.changing{
+    /*for the better animation*/
+    opacity: 0.5s;
+    
 }
 
 /* Adicione mais estilos conforme necessário */
@@ -180,11 +283,124 @@ section {
 }
 
 
-.bannerImage {
+#bannerImage {
     margin-top: 25px;
     width: 700px;
     border-radius: 5%;
     
+}
+
+
+/*responsividade*/
+@media (max-width: 400px) and (max-height: 700px) {
+    #h1-banner {
+        margin-top: 4px;
+        margin-bottom: 25px;
+        text-align: center;
+        color: #325343;
+        font-weight: bolder;
+        margin-right: 200px;
+        font-size: 30px;
+    
+        text-decoration:underline black;
+      
+    }
+
+    #bannerImage {
+        margin-top: 25px;
+        width: 380px;
+        border-radius: 5%;
+        
+    }
+
+    .p-0 {
+        text-align: justify;
+        color: #325343;
+        margin-top: 15px;
+        margin: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 15px;
+    }
+
+    .card {
+        width: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid black;
+        border-radius: 8px;
+        text-align: center;
+        margin: 10px;
+        margin-left: 10px ;
+        margin-right: 10px ;
+        margin-top: 70px;
+    }
+
+    .cards {
+        display: inline-block;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .theImg {
+        width: 150px;
+        margin-top: 5px;
+    }
+
+    body {
+        /*  background-color: #FFFCF6;*/
+        background-color: white;
+
+      }
+
+      .logo {
+        width: 50px; 
+        height: auto; 
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    header {
+        background-color: #325343;
+        padding: 10px 10px;
+        
+        
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #F7E06B;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    nav {
+        display: inline;
+        justify-content: center;
+        align-items:start;
+    }
+     
+    nav li {
+        margin: 1px 5px;
+    }
+
+    #alignGit .img-git {
+        width: 70px
+    }
+
+    #footerId {
+        margin-top: 400px;
+        padding-top: 40px;
+    }
+
+    footer {
+        margin-top: 2000px;
+        background-color:#F7E06B;
+        text-decoration: none;
+        border-radius: 5%;
+        margin-top: 30px;
+    }
+
 }
 
 

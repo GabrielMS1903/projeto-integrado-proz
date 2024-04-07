@@ -10,39 +10,34 @@
     <link rel="stylesheet" href="/public/CSS/styleSuaSaude.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!--js com defer-->
-<<<<<<< HEAD
+
    
-=======
-    <script src="JS/content.js" defer></script>
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+
+    <script src="/assets/js/global.js" defer></script>
+    <script src="/assets/js/saude.js" defer></script>
+    <script src="/assets/js/blackTheme.js" defer></script>
+
 </head>
 
-<body>
-    <header>
+<body id="bodyH">
+    <header id="nav">
         <img class="logo" src="/img/logo.png" alt="Logo">  <!-- Logo -->
 
         <!-- Menu Navegação -->
-        <nav>
+        <nav >
             <ul>
-<<<<<<< HEAD
                 <li><a href="home.html">Home</a></li>
                 <li><a href="index.html">Sobre Nós</a></li>
-=======
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobrenos.html">Sobre Nós</a></li>
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
                 <li><a href="suaSaude.html">Sua saúde</a></li>
                 
                 <li><a href="contato.html">Contato</a></li> 
                 <li><a href="cadastro.html">Cadastro</a></li>
-<<<<<<< HEAD
-                <li class="loginButton"><a href="/templates/login.html">Login</a></li> <!--Botão de leva pro form de login-->
-=======
-                <li class="loginButton"><a href="#">Login</a></li> <!--Botão de leva pro form de login-->
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+                <li class="loginButton"><a href="/templates/login.html"">Login</a></li> <!--Botão de leva pro form de login-->
             </ul>
         </nav>
     </header>
+
+    <button id="btnN">Tema Escuro</button>
 
     <main class="container">
         <div id="title">
@@ -163,11 +158,11 @@
                         <p>A consolidação das Leis de Trabalho (CLT) estabelece intervalos de dez minutos a cada 90 minutos trabalhados. Sendo assim, sempre esteja atento aos seus direitos
                             de acordo com a sua modalidade trabalhista para que a sua saúde e seus direitos estejam em ordem, para que suas atividades profissionais e pessoais possam 
                             ter a sua melhor extração. Acompanhe seus direitos <a target="_blank" href="https://www.planalto.gov.br/ccivil_03/leis/l6514.htm">na Segurança e da Medicina no trabalho.</a>
-<<<<<<< HEAD
+
                             Também, na área de T.I muitos empregos/serviços são na modalidade PJ, que a mesma possui suas finalidades e seus direitos, informe-se melhor sobre o que é serviço PJ e
                             os direitos de quem exerce: <a target="_blank" href="https://www.contabilizei.com.br/contabilidade-online/contrato-pj/?utm_device=c&utm_term=&utm_source=google&utm_medium=cpc&utm_campaign=%5BMAX%5D_Performance_SP&hsa_cam=13991176771&hsa_grp=&hsa_mt=&hsa_src=x&hsa_ad=&hsa_acc=1466761651&hsa_net=adwords&hsa_kw=&hsa_tgt=&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fgNwJgBZcatGmfs1aN4NHpnQrfLs41NBqAbb6Egpmlm8s6zs5B1fckaAsm-EALw_wcB">Aqui!</a>
-=======
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+
+
                         </p>
                     </div>
 
@@ -212,36 +207,35 @@
 
                 
             <li class="li-0   pr-1">Tenho sentido-me bem em casa, mas quando estou trabalhando acabo sentindo nuita ansiedade, o que poder ser ?</li>
-            <p class="p-0   pr-1">Provavelmente você encontra-se em um ambiente tóxico para a sua saúde, que está te ocasionando sintomas de burnout, que
+            <p class="p-0   pr-1 invisible">Provavelmente você encontra-se em um ambiente tóxico para a sua saúde, que está te ocasionando sintomas de burnout, que
                 é um disturbio emocional com sintomas de exaustão extrema, estresse e esgotamento físico resultante de situações de trabalho desgastante, 
                 que demandam muita competitividade ou responsabilidade. É aconselhavel a pessoa procurar ajuda profissional o mais rápido possivel, e no "Grupo Amor Vida" , você recebe 
                 apoio emocional gratuito com assuntos relacionados. <a class="p-a" target="_blank" href="https://grupoamorvida.ong/">Acesse aqui!</a> 
             </p>
                 <li class="li-0   pr-2">Estou passando por um momento díficil da minha vida e não tenho com quem conversar.</li>
-                <p class="p-0   pr-2">Existe várias redes de apoio que conseguem te ajudar seja fisicamente ou virtualmente, e uma que pode ser acessada de qualquer lugar é a "Pode falar", 
-                    um canal de ajuda em saúde mental, para jovens de 18 a 24 anos(livre para outras idades também), que conseguem desabafar seus temores sem julgamentos. 
+                <p class="p-0   pr-2 invisible">Na ONG "Pode Falar" especializada em saúde mental, para jovens de 18 a 24 anos(livre para outras idades também), oferece escuta para desabafar seus temores sem julgamentos. 
                     <a class="p-a" target="_blank" href="https://www.podefalar.org.br/">Acesse aqui!</a>
                 </p>
 
                 <li class="li-0  pr-3">Encontre-me atualmente com problemas de peso que está afetando a minha saúde, como posso mudar isso ?</li>
-                <p class="p-0   pr-3">É recomdavel por profissionais que o seu peso sempre acompanhe o seu IMC, caso o seu peso esteja afetando agressivamente seu dia-a-dia, procure se manter informado 
+                <p class="p-0   pr-3 invisible">É recomdavel por profissionais que o seu peso sempre acompanhe o seu IMC, caso o seu peso esteja afetando agressivamente seu dia-a-dia, procure se manter informado 
                     com profissionais qualificados, um bom começo é a ONG "Abeso", que lhe informa tudo sobre o assunto e ainda te encontra um profissional para adequado para a sua situação atual.
                     <a class="p-a" target="_blank" href="https://abeso.org.br/">Acesse aqui!</a>
                    
                 </p>
                 <li class="li-0  pr-4">Gostaria de manter a minha vida mais ativa e fora do virtual, como posso começar ?</li>
-                <p class="p-0   pr-4">Com o "Nerd Fitness" você consegue conhecer uma equipe solidária que está ali para te ajudar a criar planos de exercícios no seu tempo adaptado a uma realidade mais 
+                <p class="p-0   pr-4 invisible">Com o "Nerd Fitness" você consegue conhecer uma equipe solidária que está ali para te ajudar a criar planos de exercícios no seu tempo adaptado a uma realidade mais 
                     "nerd". <a class="p-a"  target="_blank" href="https://www.nerdfitness.com/about-2/">Acesse aqui!</a>
                 </p>
                 <li class="li-0   pr-5">Ultimamente sinto vontade de me machucar e encontre-me em uma grande depressão, o que faço ?</li>
-                <p class="p-0  pr-5"> A OMS apontam que 5,8% da população brasileira sofre de depressão, o  equivalente a 11,7 milhões de brasileiros, você não está sozinho
+                <p class="p-0  pr-5 invisible"> A OMS apontam que 5,8% da população brasileira sofre de depressão, o  equivalente a 11,7 milhões de brasileiros, você não está sozinho
                     e muitas pessoas podem te ajudar, procure amigos, parentes e uma rede de apoio sólida, e como primeiro passo entre em contato com o "CVV"(CENTRO DE 
                     VALORIZAÇÃO A VIDA), que está disponivel 24 horas por dia todos os dias para ouvir você com pessoas qualificadas e treinadas. Vários assuntos são abordados no site, 
                 conheça: <a class="p-a" target="_blank" href="https://cvv.org.br/">Acesse aqui!</a></p>
                
             
         
-
+                    
 
                 
                 
@@ -252,14 +246,29 @@
     </main>
 
     
-    <footer>
+    <footer id="footerId">
         <p id="p-roda-a">Sua saúde é o que importa para nós</p>
         <p id="p-roda-b">Contato dos desenvolvedores:</p>
-        <a target="_blank" href="https://github.com/Ailton-Nascimento">Github Ailton</a>
-        <a target="_blank" href="https://github.com/GabrielMS1903">Github Gabriel</a>
         
-        <a target="_blank" href="https://github.com/Abel-D-Silva">GitHub Abel</a>
-        <a target="_blank" href="https://github.com/rasecprogram">Github Augusto</a>
+        <div id="alignGit">
+
+            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+    
+           </div>
+        
+      
+       
+      
+        
     </footer>
 
    

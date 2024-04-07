@@ -55,7 +55,6 @@ nav a {
     color: #F7E06B;
     font-weight: bold;
     font-size: 18px;
-<<<<<<< HEAD
 }
 
 nav a:hover{
@@ -84,8 +83,34 @@ footer a {
    margin-top: 7px;
 }
 
+#footerId > p.footerLetra {
+    color: #F7E06B;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 7px;
+    justify-content: center;
+}
 
-@media (max-width: 400px) {
+#p-roda-a {
+    color: #325343;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 7px;
+    justify-content: center;
+    
+}
+
+#p-roda-b {
+    color: #325343;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+
+@media (max-width: 400px) and (max-height: 700px)  {
     body {
         /*  background-color: #FFFCF6;*/
         background-color: white;
@@ -123,6 +148,161 @@ footer a {
         margin: 1px 5px;
     }
 
-=======
->>>>>>> 84bde23c84fe29433bfd1229f85eae1e9f132930
+    #btnN {
+    
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 10px;
+        border: 1px solid white;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 5px;
+    }
+
 }
+
+#alignGit  {
+   
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.img-git {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.git {
+    animation-name: transition;
+    animation-duration: 1s;
+}
+
+#btnN {
+    color: #325343;
+    background-color: #F7E06B;
+}
+
+#btnN.changeBtn {
+    color:#F7E06B;
+    background-color: black;
+}
+
+@keyframes transition {
+    from {
+      
+        text-align: justify;
+        font-size: 17px;
+        line-height: 1.4rem;
+        color: #e9dbc1;
+    }
+  
+    to {
+        font-size: 25px;
+        text-align: justify;
+        line-height: 1.4rem;
+        color: #325343;
+    }
+  }
+
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+footer.gitFooter {
+    background-color: #325343;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+
+#btnN {
+    
+    margin-left: 1700px;
+    
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+@keyframes btnTheme {
+    from {
+        margin-left: 1700px;
+        transform: translateX(-20px);
+        margin-top: 10px;
+        border: 1px solid white;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 5px;
+        
+    } 
+
+    to {
+        margin-left: 1700px;
+        transform: translateX(20px);
+        margin-top: 10px;
+        border: 1px solid white;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 20px;
+    }
+}
+
+@keyframes btnOther {
+    from {
+        margin-left: 1700px;
+        transform: translateX(-20px);
+        margin-top: 10px;
+        border: 1px solid white;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 5px;
+        
+    } 
+
+    to {
+        margin-left: 1700px;
+        transform: translateX(20px);
+        margin-top: 10px;
+        border: 1px solid white;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 5px;
+    }
+}
+
+.toggleOther {
+    animation-name: btnOther;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.toggleButton {
+    animation-name: btnTheme;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#bodyH.bodyMore {
+    background-color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+  }
+  
+  .white {
+    background-color: white;
+    color: black;
+  }
