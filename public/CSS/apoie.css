@@ -1,0 +1,224 @@
+#main_container  {
+    
+    background-image: url("https://i.pinimg.com/564x/cd/bf/21/cdbf2126263936ae39ea06f2d1a7b2d4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10%;
+}
+
+@keyframes mainAni {
+    from {
+        background-image: url("https://i.pinimg.com/564x/cd/bf/21/cdbf2126263936ae39ea06f2d1a7b2d4.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-top: 100px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border-radius: 10%;
+    }
+
+    to {
+        background-image: url("https://i.pinimg.com/564x/80/f2/dc/80f2dc8a04a865a279a31e610861f07f.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-top: 100px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border-radius: 10%;
+    }
+}
+
+.anima-main {
+    animation-name: mainAni;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+body {
+    background-color: #e9dbc1;
+}
+
+body.bodyChange {
+    background-color: black;
+}
+
+
+
+#main_container > h1 {
+    color: black;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 1.1em;
+    text-decoration:underline pink;
+}
+
+#main_container > h1 > a{
+    color:darkgreen;
+    font-weight: lighter;
+    text-decoration: double darkgreen;
+    cursor: pointer;
+}
+
+#apoio_container > form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#apoio_container > form > label {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: darkgreen;
+    font-weight: bold;
+    
+}
+
+#apoio_container > form > input {
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#apoio_container > form > textarea {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 3%;
+    
+}
+
+.submit {
+    padding: 15px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-top:15px;
+    margin-right: 200px;
+    border-radius: 10%;
+    text-shadow: 5px;
+    color: #325343;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.submit:hover {
+    padding: 15px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-right: 200px;
+    border-radius: 10%;
+    text-shadow: 5px;
+    color: #F7E06B;
+    background-color: #325343;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.message {
+    padding: 1em;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px soli d#b8daff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+  }
+
+
+  @media (max-width: 400px)   {
+    #main_container {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin-top: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 3%;
+    }
+
+    #main_container > h1 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #apoio_container > form > input,
+    #apoio_container > form > textarea {
+        width: 90%;
+        margin: 3px auto;
+    }
+
+    .submit {
+        width: 90%;
+        padding: 5px;
+        margin: 5px auto;
+        font-size: 10px;
+    }
+
+    .message {
+        padding: 0.3em;
+        font-size: 10px;
+    }
+
+    #footerId {
+        margin-top: 2000px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    #alignGit a {
+        margin-left: 5px;
+        margin-right: 5px;
+    
+    }
+    
+    footer {
+       
+        background-color: #F7E06B;
+        text-decoration: none;
+        position: relative;
+        margin-top: 3px;
+        width: 100%;
+        border-radius: 0;
+        padding: 5px;
+    }
+    
+    
+    
+    #p-roda-a,
+    #p-roda-b {
+        font-size: 10px; /* Reduzir ainda mais o tamanho do texto */
+        text-align: center;
+        margin-top: 7px;
+    }
+    
+    footer a {
+        margin-top: 50px; /* Reduz ainda mais a margem superior */
+        margin-bottom: 5px; /* Reduz ainda mais a margem inferior */
+        padding: 3px; /* Reduz o preenchimento */
+    }
+
+}

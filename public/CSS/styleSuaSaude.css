@@ -349,12 +349,7 @@
     
 }
 
-#container_tips > ol > .p_tips:hover {
-    animation-duration: 0.5s;
-    animation-name: dicas;
-    animation-fill-mode: forwards;
 
-}
 
 
 @keyframes dicas {
@@ -580,7 +575,7 @@
     font-weight: bolder;
     margin-left: 300px;   
     margin-right: 300px;  
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #container_questions > h6.questH {
@@ -595,11 +590,13 @@
 
 #container_questions .li-0 {
     color: #325343;
-    text-align: left;
+    text-align: justify;
+    
     margin-top: 25px;
     font-weight: bolder;
     margin-left: 300px;  
-    margin-right: 600px; 
+    margin-right: 600px;
+    margin-left: 600px; 
     font-size: large;
 }
 
@@ -609,8 +606,8 @@
         text-align: left;
         margin-top: 25px;
         font-weight: bolder;
-        margin-left: 300px;  
-        margin-right: 300px; 
+        margin-left: 600px;  
+        margin-right: 600px; 
         transform: translateY(-5PX);
         font-size: large;
     } 
@@ -620,10 +617,10 @@
         text-align: left;
         margin-top: 25px;
         font-weight: bolder;
-        margin-left: 300px;  
-        margin-right: 300px; 
+        margin-left: 600px;  
+        margin-right: 600px; 
         transform: translateY(5PX);
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -633,21 +630,24 @@
     animation-fill-mode: forwards;
 }
 
+
+
 #container_questions .p-0 {
     text-align: justify;
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 8px;
-    margin-left: 300px; 
-    margin-right: 300px; 
+    margin-left: 600px; 
+    margin-right: 600px; 
     line-height: 1.4rem;
+    font-weight: bold;
 }
 
 #container_questions .p-0.questP {
     text-align: justify;
     font-size: 17px;
     margin-top: 8px;
-    margin-left: 300px; 
-    margin-right: 300px; 
+    margin-left: 600px; 
+    margin-right: 600px; 
     line-height: 1.4rem;
     color: white;
 }
@@ -676,6 +676,8 @@
     }
 }
 
+
+
 .animate-question {
     animation-name: aQuest;
     animation-duration: 0.5s;
@@ -686,11 +688,16 @@
 
 /*rodapé*/
 
-footer {
+
+/*footer {
     background-color:#F7E06B;
-    text-decoration: none;
-    border-radius: 5%;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
     margin-top: 30px;
+    padding: 5px;
+    position: relative;
+    
 }
 
 
@@ -728,6 +735,20 @@ footer a {
    margin-top: 7px;
 }
 
+#alignGit  {
+   
+    display:flex;
+    justify-content: space-between;
+    
+    
+   
+}
+
+.img-git {
+    width: 100px;
+    
+}
+*/
 
 
 
@@ -931,18 +952,7 @@ footer a {
        
     }
 
-    footer a {
-        text-decoration: none;
-        color: #333;  
-        margin-right: 4px; 
-        margin-left: 5px;
-        
-        
-        display: inline;
-       
-    
-       margin-top: 7px;
-    }
+ 
     
 
 }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/global.css">
+    <link rel="stylesheet" href="/CSS/logCadastre.css">
+    <link rel="stylesheet" href="/CSS/styleSuaSaude.css">
+    
+    <title>Document</title>
+    <script src="/global.js" defer></script>
+    <script src="/validacao.js"></script>
+    
+  
+  
+
+
+</head>
+<body>
+    
+  <header id="nav">
+                    <img class="logo" src="/logo.png" alt="Logo">  <!-- Logo -->
+            
+                    <!-- Menu Navegação -->
+                    <nav >
+                          <ul>
+                             <li><a href="/">Home</a></li>
+                            {{#if session.userid}}
+                            
+                           
+                           <li><a href="contato.html">Contato</a></li> 
+                            <li><a href="saude">Sua saúde</a></li>
+                             <li><a href="sobre">Sobre nós</a></li>
+                             <li><a href="apoio">Apoio</a></li>
+                            <li><a href="/logout">Sair</a></li>
+                            
+                            {{else}}
+                            
+                            <li><a href="contato.html">Contato</a></li> 
+                            <li><a href="cadastro">Cadastro</a></li>
+                             <li><a href="saude">Sua saúde</a></li>
+                             <li><a href="apoio">Apoio</a></li>
+                             <li><a href="sobre">Sobre nós</a></li>
+                            <li class="loginButton"><a href= "logando">Login</a></li> <!--Botão de leva pro form de login-->
+                            {{/if}}
+                        </ul>
+                    </nav>
+                </header>
+
+                <button id="btnN">Tema Escuro</button>
+
+                <div>
+                {{#if messages.message}}
+                <div class="message">
+                {{messages.message}}
+                </div>
+                {{/if}}
+
+    <div id="cadastroTop">
+        <form action="/cadastro" method="post"  id="cadForm">
+            <h1>Vamos fazer seu cadastro!</h1>
+            <label class="start lab" for="name">Nome:</label>
+            <input placeholder="Nome Completo" class="start inpt" type="text" id="name" name="name" required>
+            <p id="name-helper" class="helper-text visible" ></p>
+
+             <label class="start lab" for="social">Nome social (Opcional):</label>
+             <input class="start inpt" type="text" placeholder="Informe seu nome social" id="social" name="social">
+             <p>Informe-se mais sobre: <a target="_blank" href="
+            https://www.gov.br/pt-br/servicos/incluir-nome-social-no-cpf#:~:text=O%20%22nome%20social%22%20%C3%A9%20o,Pessoa%20travesti%20ou%20transexual.
+            &text=A%20solicita%C3%A7%C3%A3o%20deve%20ser%20realizada%20via%20processo%20digital.">O que é nome social?</a></p>
+
+            <label class="start lab" for="data">Data de nascimento: </label>
+            <input class="start inpt" type= "date" id="data" name="data" required>
+             <p id="date-helper" class="helper-text visible" ></p>
+
+            <label class="start lab" for="email">E-mail: </label>
+            <input class="start inpt" type= "email" placeholder="Seu melhor e-mail" id="email" name="email" 
+            required>
+            <p id="email-helper" class="helper-text visible" ></p>
+
+            <label class="start lab" for="password">Senha: </label>
+            <input class="start inpt" type= "password"  id="password" name="password" 
+            required>
+        
+            <p id="senha-helper" class="helper-text visible" ></p>
+
+            <label class="start lab" for="confirmpassword">Confirmar Senha: </label>
+            <input class="start inpt" type= "password"  id="confirmpassword" name="confirmpassword" 
+            required>
+             <p id="Confirm-helper" class="helper-text visible" ></p>
+
+            <button class="btn reset" type="reset">Limpar</button>
+            <button class="btn submit" type="submit">Cadastrar</button>
+
+            <p id="cadRight">Já tem Cadastro ? <a target="_blank" href="/templates/login.html">Fazer login.</a></p>
+
+            
+
+        </form>
+    </div>
+
+    <footer id="footerId">
+        <p id="p-roda-a">Sua saúde é o que importa para nós</p>
+        <p id="p-roda-b">Contato dos desenvolvedores:</p>
+        
+        <div id="alignGit">
+
+            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+    
+    
+            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+    
+           </div>
+        
+      
+       
+      
+        
+    </footer>
+</body>
+</html>

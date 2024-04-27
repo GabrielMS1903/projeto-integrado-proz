@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
     const nav = document.getElementById("nav")
     nav.addEventListener("mouseenter", () => {
-        nav.style.display = "flex"
-        nav.style.justifyContent = "center"
-        nav.style.backgroundImage = "linear-gradient(to bottom right,#2E7F57, #F7E06B "
-        nav.style.animationDelay = "1s"
+        
+        nav.style.backgroundImage = "linear-gradient(to bottom right,#E9DBC1, #2E7F57"
+        
     })
 
     nav.addEventListener("mouseleave", () => {
-        nav.style.display = "flex"
-        nav.style.justifyContent = "space-around"
+        
+        
         nav.style.backgroundColor = "#43604F"
         
         nav.style.backgroundImage = ""

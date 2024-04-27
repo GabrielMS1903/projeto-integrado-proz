@@ -3,44 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/public/CSS/global.css">
-    <link rel="stylesheet" href="/public/CSS/styleSuaSaude.css">
-    <link rel="stylesheet" type="text/css" href="/public/CSS/styleHome.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/global.css">
+    <link rel="stylesheet" href="/CSS/styleSuaSaude.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/styleHome.css">
     
 
-    <script src="/assets/js/home.js" defer></script>
-    <script src="/assets/js/global.js"></script>
-    <script src="/assets/js/blackTheme.js"></script>
+    <script src="/home.js" defer></script>
+    <script src="/global.js"></script>
+    
     <title>Home</title>
     
     
 </head>
 
 <body id="bodyH" >
-    <header id="nav">
-        <img class="logo" src="/img/logo.png" alt="Logo">  <!-- Logo -->
-
-        <!-- Menu Navegação -->
-        <nav >
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="index.html">Sobre Nós</a></li>
-                <li><a href="suaSaude.html">Sua saúde</a></li>
-                
-                <li><a href="contato.html">Contato</a></li> 
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li class="loginButton"><a href="/templates/login.html"">Login</a></li> <!--Botão de leva pro form de login-->
-            </ul>
-        </nav>
-    </header>
+ <header id="nav">
+                    <img class="logo" src="/logo.png" alt="Logo">  <!-- Logo -->
+            
+                    <!-- Menu Navegação -->
+                    <nav >
+                          <ul>
+                             <li><a href="/">Home</a></li>
+                            {{#if session.userid}}
+                            
+                           
+                           <li><a href="contato.html">Contato</a></li> 
+                            <li><a href="saude">Sua saúde</a></li>
+                             <li><a href="sobre">Sobre nós</a></li>
+                             <li><a href="apoio">Apoio</a></li>
+                            <li><a href="/logout">Sair</a></li>
+                            
+                            {{else}}
+                            
+                            <li><a href="contato.html">Contato</a></li> 
+                            <li><a href="cadastro">Cadastro</a></li>
+                             <li><a href="saude">Sua saúde</a></li>
+                             <li><a href="apoio">Apoio</a></li>
+                             <li><a href="sobre">Sobre nós</a></li>
+                            <li class="loginButton"><a href= "logando">Login</a></li> <!--Botão de leva pro form de login-->
+                            {{/if}}
+                        </ul>
+                    </nav>
+                </header>
 
     <button id="btnN">Tema Claro</button>
    
     <section>
         <!-- Banner -->
         <div class="banner">
-            <h1 id="h1-banner">FITVitality</h2>
-            <img id="bannerImage"  src="/img/direito__sade.png"   alt="Banner bonito e vistoso"">
+            <h1 id="h1-banner">FITVitality</h1>
+            <img id="bannerImage"  src="/imagemF.png"   alt="Banner bonito e vistoso"></img>
            
         </div>
     </section>
@@ -79,27 +91,27 @@
         <p class="p-0"> O ritmo acelerado, a pressão constante, as altas demandas e os prazos apertados impactam significativamente o bem-estar dos profissionais de TI, 
         fazendo com que esgotamento, estresse e ansiedade estejam mais presentes nas carreiras digitais. De acordo com o estudo "The State of Burnout". </p>
 
-        <a id="caminho" href="/templates/suaSaude.html" >Informe-se e encaminhe-se clicando aqui!</a>
+        <a id="caminho" href="/saude" >Informe-se e encaminhe-se clicando aqui!</a>
     </div>
 
     <section>
         <!-- Cards -->
         <div class="cards">
                 <div class="card">
-                    <img class="iconeDIe theImg-1" src="/img/iconfinderhealthcareandmedicalorganicvegansaladhealthyfoodavocadodietvegetarianfoodfruit4394832-115914_115867.png">
+                    <img class="iconeDIe theImg-1" src="/iconfinderhealthcareandmedicalorganicvegansaladhealthyfoodavocadodietvegetarianfoodfruit4394832-115914_115867.png">
                     <p>Comer saúdavel não é comer a mesma coisa todos os dias, mas buscar o melhor 
                         dos alimentos sempre.
                 </div>
 
                 <div class="card">
-                    <img class="iconeDIe" src="/img/noDie.png">
+                    <img class="iconeDIe" src="/noDie.png">
                     <p>Não é só de código, café e bug que o corpo precisa, 
                         30 minutos de caminhada é uma excelente forma de inciar!!            
                     </p>
                 </div>
                 
                 <div class="card">
-                    <img class="iconeDIe theImg" src="/img/rede-de-urgencia-em-saude-removebg-preview.png" alt="">
+                    <img class="iconeDIe theImg" src="/rede-de-urgencia-em-saude-removebg-preview.png" alt="">
                     <p>
                         Manter um equilíbrio saudável entre a mente e o corpo é essencial para uma vida plena. 
                         A prática regular de atividades físicas não apenas fortalece nosso corpo, mas também desempenha 
@@ -108,7 +120,7 @@
 
 
                 <div class="card">
-                    <img class="iconeDIe theImg-1" src="/img/2013151.png">
+                    <img class="iconeDIe theImg-1" src="/2013151.png">
                     <p>"Invista na tua saúde para não ter que gastar com uma doença."           
                     </p>
                 </div>
@@ -150,16 +162,16 @@
         
         <div id="alignGit">
 
-            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
     
     
-            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
     
     
-            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
     
     
-            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
     
            </div>
         

@@ -15,6 +15,14 @@ const User = db.define("User", {
         type: DataTypes.STRING, 
         allowNull: false
     },
+    data: {
+        type: DataTypes.DATE, 
+        allowNull: false
+    },
+    social: {
+        type: DataTypes.STRING, 
+        allowNull: false
+    },
 })
 
 module.exports = User
