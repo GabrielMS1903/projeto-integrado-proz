@@ -6,6 +6,7 @@ const checkUser = require("../../helper/verif").checkUser
 router.get("/" ,FitController.showFit)
 router.get("/saude", checkUser, FitController.saudeFit)
 router.get("/sobre",  FitController.sobreFit)
+router.get("/contato", FitController.contatoFit)
 router.get("/apoio", checkUser, FitController.apoioFit)
 router.post("/apoio", FitController.apoioFitPost)
 

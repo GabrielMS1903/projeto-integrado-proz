@@ -14,6 +14,10 @@ module.exports = class FitController {
       res.render("index")
     }
 
+    static contatoFit(req, res) {
+      res.render("contato")
+    }
+
     static apoioFit(req, res) {
       res.render("apoio")
     }
