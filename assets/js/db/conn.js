@@ -1,7 +1,7 @@
 const {Sequelize} = require("sequelize");
 
 const sequelize = new Sequelize("fitvit", "root", "", {
-    host: "localhost",
+    host: "https://fitvitality.vercel.app/",
     dialect:"mysql"
 })
 
