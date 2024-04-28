@@ -1,15 +1,15 @@
-const {Sequelize} = require("sequelize");
+const { Sequelize } = require("sequelize");
 
-const sequelize = new Sequelize("fitvit", "root", "", {
-    host: "https://fitvitality.vercel.app/",
-    dialect:"mysql"
-})
+const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
+    host: process.env.DB_HOST,
+    dialect: "mysql"
+});
 
 try {
-    sequelize.authenticate()
-    console.log("Conectamos com sucesso")
-}catch(error) {
-    console.log(`Erro na conexão com o banco de dados ${error}`)
+    sequelize.authenticate();
+    console.log("Conectamos com sucesso ao banco de dados");
+} catch (error) {
+    console.error("Erro na conexão com o banco de dados:", error);
 }
 
-module.exports = sequelize
+module.exports = sequelize;
