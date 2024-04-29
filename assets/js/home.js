@@ -62,8 +62,8 @@ function changeImg() {
 
             // Altera a imagem do banner conforme o botão clicado
             const id = buttonClicked.getAttribute("id");
-            image.setAttribute("src", ` /${id}.png`);
-            img.setAttribute("src", ` /${id}.png`);
+            image.setAttribute("src", ` /img/${id}.png`);
+            img.setAttribute("src", ` /img/${id}.png`);
             image.style.cursor = "pointer"
             image.style.width = "600px"
             // Adiciona a classe 'changing' à imagem
