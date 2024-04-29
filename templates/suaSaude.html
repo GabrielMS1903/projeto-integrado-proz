@@ -6,8 +6,8 @@
  
     <title>Sua saúde</title>
 
-    <link rel="stylesheet" href="/CSS/global.css">
-    <link rel="stylesheet" href="/CSS/styleSuaSaude.css">
+    <link rel="stylesheet" href="/public/CSS/global.css">
+    <link rel="stylesheet" href="/public/CSS/styleSuaSaude.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!--js com defer-->
 
@@ -18,34 +18,26 @@
 </head>
 
 <body id="bodyH">
- <header id="nav">
-                    <img class="logo" src="/logo.png" alt="Logo">  <!-- Logo -->
-            
-                    <!-- Menu Navegação -->
-                    <nav >
-                          <ul>
-                             <li><a href="/">Home</a></li>
-                            {{#if session.userid}}
-                            
-                           
-                           <li><a href="contato">Contato</a></li> 
-                            <li><a href="saude">Sua saúde</a></li>
-                             <li><a href="sobre">Sobre nós</a></li>
-                             <li><a href="apoio">Apoio</a></li>
-                            <li><a href="/logout">Sair</a></li>
-                            
-                            {{else}}
-                            
-                            <li><a href="contato">Contato</a></li> 
-                            <li><a href="cadastro">Cadastro</a></li>
-                             <li><a href="saude">Sua saúde</a></li>
-                             <li><a href="apoio">Apoio</a></li>
-                             <li><a href="sobre">Sobre nós</a></li>
-                            <li class="loginButton"><a href= "logando">Login</a></li> <!--Botão de leva pro form de login-->
-                            {{/if}}
-                        </ul>
-                    </nav>
-                </header>
+
+    <header id="nav">
+        <img class="logo" src="/img/logo.png" alt="Logo">  <!-- Logo -->
+
+        <!-- Menu Navegação -->
+        <nav >
+              <ul>
+                 <li><a href="home.html">Home</a></li>
+                
+                
+                <li><a href="contato.html">Contato</a></li> 
+                <li><a href="cadastro.html">Cadastro</a></li>
+                 <li><a href="suaSaude.html">Sua saúde</a></li>
+                 <li><a href="apoio.html">Apoio</a></li>
+                 <li><a href="index.html">Sobre nós</a></li>
+                <li class="loginButton"><a href= "login.html">Login</a></li> <!--Botão de leva pro form de login-->
+               
+            </ul>
+        </nav>
+    </header>
                 
     <button id="btnN">Tema Escuro</button>
 
@@ -74,7 +66,7 @@
        
         <!--começando pela a primeira imagem apresentada-->
         <div id="img-1">
-            <img src="/unicaEstrela-removebg-preview.png" alt="Imagem 1">
+            <img src="/img/unicaEstrela-removebg-preview.png" alt="Imagem 1">
         </div>
 
         <div id="container_start">
@@ -89,7 +81,7 @@
             <div id="container_tips">
                  <h4>Dito isso, vamos ver algumas pequenas dicas para o seu dia-a-dia na frente de um "PC".</h4>
 
-                    <img id="img-2"  src="/people.note.png" alt="imagem 2">
+                    <img id="img-2"  src="/img/people.note.png" alt="imagem 2">
 
                  <ol>
                     <li class="li_tips">
@@ -181,7 +173,7 @@
                  <div id="container_symtoms">
                     <h6 class="dual">Você tem praticado maioria das atividades acima e mesmo assim está difícil ? Acompanhe os sintomas mais comuns para ficar atento: </h6>
 
-                            <img class="dual" id="img-3" src="/guySad.png" alt="imagem 3">
+                            <img class="dual" id="img-3" src="/img/guySad.png" alt="imagem 3">
                     <ul>
                         <li>Insônia ou sono irregular, que não promove descanso; </li>
                         <li>Queda nos níveis de energia; </li>
@@ -197,7 +189,7 @@
                         seu estado atual!
                     </p>
 
-                        <img id="img-4" src="/6367184.jpg" alt="imagem-4">
+                        <img id="img-4" src="/img/6367184.jpg" alt="imagem-4">
                  </div>
 
             </div>
@@ -213,7 +205,7 @@
        <div id="container_questions">
             <h6>Tire suas dúvidas e encontre apoio!</h6>
 
-            <img id="img-5" src="/question.png" alt="imagem 5">
+            <img id="img-5" src="/img/question.png" alt="imagem 5">
 
                 
             <li class="li-0   pr-1">Tenho sentido-me bem em casa, mas quando estou trabalhando acabo sentindo nuita ansiedade, o que poder ser ?</li>
@@ -256,22 +248,22 @@
     </main>
 
     
- <footer id="footerId">
+    <footer id="footerId">
         <p id="p-roda-a">Sua saúde é o que importa para nós</p>
         <p id="p-roda-b">Contato dos desenvolvedores:</p>
         
         <div id="alignGit">
 
-            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/Ailton-Nascimento"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
     
     
-            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/GabrielMS1903"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
     
     
-            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/Abel-D-Silva"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
     
     
-            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/git-removebg-preview.png" alt=""></a>
+            <a target="_blank" href="https://github.com/rasecprogram"><img class="img-git" src="/img/git-removebg-preview.png" alt=""></a>
     
            </div>
         
@@ -282,8 +274,8 @@
     </footer>
 
 
-   <script src="/global.js" defer></script>
-    <script src="/saude.js" ></script>
+   <script src="/assets/js/global.js" defer></script>
+    <script src="/assets/js/saude.js" ></script>
     
    
 </body>

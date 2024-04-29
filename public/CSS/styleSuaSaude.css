@@ -144,12 +144,7 @@
     animation-fill-mode: forwards;
 }
 
-#img-3:hover {
-    
-    animation-name: imagem;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-}
+
 
 #img-5:hover {
     
@@ -194,7 +189,7 @@
     display: flex;
     margin-left: 400px;
 
-    animation-name: imagem;
+    
 
 
   

@@ -57,7 +57,7 @@ function setSuccessFor(input) {
 
 //tema escuro 
 const buttonPress = document.getElementById("btnN");
-const body = document.getElementsByTagName("body")[0];
+const body = document.getElementById("bodyBlack");
 const footer = document.getElementById("footerId");
 const footerP = document.querySelectorAll("#footerId p");
 const cadForm = document.getElementById("cadForm")

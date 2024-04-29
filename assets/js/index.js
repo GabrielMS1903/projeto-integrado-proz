@@ -64,8 +64,12 @@ app.use((req, res, next) => {
 app.use("/", userRoutes)
 app.use("/", fitRoutes )
 
+const PORT = process.env.PORT || 2000;
+
 conn.sync().then(() => {
-    app.listen(2000)
+    app.listen(PORT, () => {
+        console.log(`Servidor rodando na porta ${PORT}`);
+    });
 }).catch((error) => {
-    console.log(`Erro interno na conexão ${error}`)
+    console.log(`Erro interno na conexão ${error}`);
 })
