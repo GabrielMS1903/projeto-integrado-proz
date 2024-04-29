@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function (){
     const encaminha = document.querySelector("#caminho")
     const link = encaminha.querySelector("a");
     
-    const hreforiginal =  "/saude"
+    const hreforiginal =  "suaSaude.html"
     const textOriginal = "Informe-se e encaminhe-se clicando aqui!"
     console.log(encaminha)
     
